@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+*{margin:0px; padding:0px;}
+
+body,div,ul,li{padding:0px; margin:0px;}
+*{line-height:130%;}
+h1{color:#200000 ;}
+h2{color:#003399; font:bold 20px Times New Roman;}
+h3{ color:#d64c00; font:bold 16px Times New Roman;}
+
+#home-mainbg {
+
+	background: #eeeeee url(../images/home/home-bg-main.jpg) repeat-x scroll;
+
+	width:100%;
+
+	height:1271px;
+
+}
+#home-container {
+
+	background: #FFF;
+
+	margin:0 auto;
+
+	width: 1000px;
+
+}
+
+#logo{ width:170px; float:left; border:0px;margin-top:15px;margin-left:10px;margin-right:10px;}
+
+#logo a{ border:0px;}
+
+#header-nav{ background:#FFF; width:960px; height:100px;}
+
+#navigation {
+	font:12px Arial, Helvetica, sans-serif;
+	color: #666666;
+	height: 100px;
+	width: 750px;
+	float:left;
+	padding-top:10px;
+}
+
+#navlinks{ width:750px; height:75px; font:12px arial;}
+
+#navlinks ul{width:750px; height:36px; list-style:none;}
+
+#navlinks li{ display:inline;  margin:0 6px; font:12px/36px arial;height:36px;}
+
+#navlinks li a{font:12px/36px arial; color:#666; text-decoration:none;height:36px;padding:0.9em 14px;}
+
+#navlinks li a:hover{ font:12px/36px arial; color:#fff;background-color:#fc6104; text-decoration:none; height:36px;}
+
+#navlinks li a:selected{ font:12px/36px arial; color:#fff;background-color:#fc6104; text-decoration:none; height:36px;}
+
+#navlink-slected{ font:12px/36px arial;padding: 0.9em 0px 0.9em 0px;color:#fff;background-color:#fc6104; text-decoration:none; height:36px;}
+
+#navlink-slected a{ font:12px/36px arial;padding: 0.9em 0px 0.9em 0px;color:#fff;background-color:#fc6104; text-decoration:none; height:36px;}
+
+#portfolio{ display:none;background-color:#2f398a; width:744px; height:39px; font:12px/39px arial; color:#fff; margin-left:6px;}
+
+#portfolio ul{ list-style:none; margin-left:5px; height:39px;}
+
+#portfolio li { display:inline; padding-right:10px;font:11px/39px arial;color:#fff; margin:0px;  }
+
+#portfolio li a{ color:#fff; font:11px/39px arial; text-decoration:none; margin:0px;}
+
+#portfolio ul a:hover{color:#fc6104;font:11px/39px arial; text-decoration:none;background-color:transparent;}
+
+#active{display:none;background-color:#27398a; width:744px; height:39px; font:12px/39px arial; color:#fff; margin-left:6px;}
+
+#active ul{ list-style:none; margin-left:5px; height:39px;}
+
+#active li { display:inline; padding-right:10px;font:11px/39px arial;color:#fff; margin:0px; }
+
+#active li a{ color:#fff; font:11px/39px arial; text-decoration:none; margin:0px;}
+
+#active ul a:hover{color:#fc6104;font:11px/39px arial; text-decoration:none;background-color:transparent;}
+
+#keyoffer{display:none;background-color:#27398a; width:744px; height:39px; font:12px/39px arial; color:#fff; margin-left:6px;}
+
+#keyoffer ul{ list-style:none; margin-left:5px; height:39px;}
+
+#keyoffer li { display:inline; padding-right:10px;font:11px/39px arial;color:#fff; margin:0px; }
+
+#keyoffer li a{ color:#fff; font:11px/39px arial; text-decoration:none; margin:0px;}
+
+#keyoffer ul a:hover{color:#fc6104;font:11px/39px arial; text-decoration:none; background-color:transparent;}
+
+#sliddd{ width:960px; margin:0 auto; clear:both;}
+#sliddshadow{clear:both; background-image:url(../images/home/shadow.jpg); height:26px; width:960px; margin:0 auto;}
+
+#home-continer{
+	display:block;
+	width:1000px;
+	background-color:#FFF;
+	margin:0 auto;
+	/*height: 560px;*/
+	height: 600px;
+	padding-bottom:30px;
+}
+#colleft{display:block; width:246px;margin:0 auto;float:left;margin-right:68px; margin-left:15px;padding-left:5px;padding-top:25px;margin-bottom:50px;padding-bottom:15px;} 
+/*#colleft-txt{display:block; float:left; padding-top:20px; color:#4f4f4f; font:18px serif; padding-bottom:15px;} 
+#colleft-txt p{ margin:5px 0px;}
+*/
+
+#box{display:block; width:246px; height:200px;float:left; background: url(../images/box.jpg)repeat-x scroll;}
+#box-text{margin:40px 10px 0px 30px;}
+#box-text h3{font:bold;}
+
+
+#collright{ display:block;width:620px;margin: 0 auto;float:left; margin-right:11px; margin-top:5px; padding-top:30px; padding-bottom:15px; line-height:150%; } 
+
+#collright p{line-height:150%;}
+
+#collright ul{margin-left:50px;}
+
+#collright ul li{line-height:150%;}
+
+#footer {text-align:center;background:url(../images/home/new-footer.jpg) center no-repeat; margin:0 auto;margin-top:30px;width:100%; height:20px; background-color:#313131; color:#ececec;padding-top:5px;color:#ececec; font:12px arial;float:center;}
+
+#footer a{ color:#ececec; text-decoration:none;}
+
+#footer a:hover{ color:#464646;text-decoration:none;}
+
+/******************************************************************************************************************/
+
+#slider {
+	display:block;
+	float:centre;
+	width:800px;
+	height:470px;
+	/*400px main*/
+	margin-top:20px;
+	margin-right:160px;
+	/*margin-bottom:10px;*/
+	z-index:20px
+}

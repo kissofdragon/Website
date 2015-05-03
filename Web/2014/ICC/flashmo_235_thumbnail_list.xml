@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thumbnails>
+	
+	<config 
+		fullscreen_button="true"
+		folder="thumbnails/"
+		tween_duration="0.5"
+		thumbnail_border_size="2"
+		thumbnail_border_color="0xFFFFFF">
+	</config>
+	
+	
+	<!--<thumbnail> 
+		<filename>try.jpg</filename> 
+		<tooltip>templatemo 272 christmas night</tooltip> 
+		<url>img/try.jpg</url> 
+		<target>_self</target>
+		<rel>lightbox</rel>
+	</thumbnail> -->
+
+	<thumbnail> 
+		<filename>1.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/1.jpg</url> 
+		<target>_blank</target>
+	</thumbnail> 
+ 
+	<thumbnail> 
+		<filename>2.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/2.jpg</url> 
+		<target>_blank</target>
+	</thumbnail> 
+	<thumbnail> 
+		<filename>3.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/3.jpg</url> 
+		<target>_blank</target>
+	</thumbnail> 
+	<thumbnail> 
+		<filename>4.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/4.jpg</url> 
+		<target>_blank</target>
+	</thumbnail> 
+	<thumbnail> 
+		<filename>5.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/5.jpg</url> 
+		<target>_blank</target>
+	</thumbnail> 	
+		<thumbnail> 
+		<filename>6.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/6.jpg</url> 
+		<target>_blank</target>
+	</thumbnail>
+		<thumbnail> 
+		<filename>7.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/7.jpg</url> 
+		<target>_blank</target>
+	</thumbnail>
+		<thumbnail> 
+		<filename>8.jpg</filename> 
+		<tooltip></tooltip> 
+		<url>img/8.jpg</url> 
+		<target>_blank</target>
+	</thumbnail>
+	
+</thumbnails>
